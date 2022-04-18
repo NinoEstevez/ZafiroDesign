@@ -6,60 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="/css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@100&family=Cinzel&family=Josefin+Sans&family=Lobster+Two&family=Monoton&family=Mulish:wght@300&family=Noticia+Text&family=PT+Sans&family=Righteous&family=Roboto+Slab:wght@300&family=Rubik&display=swap" rel="stylesheet">
     <title>Zafiro Diseño</title>
 </head>
 
-<body style="background-image:url(/images/fondo.png); background-repeat:repeat-y; background-size: 100%;">
-            <div class="container-fluid">
-              <div class="row border-bottom border-2">
-             <nav class="navbar navbar-expand-lg navbar-light bg-light opacity-75 shadow">   
-             <div class="col-md-1"></div>       
-                  <a href="#" class="col-md-2"><img src="/images/zafiro_logo.png" alt="" class="w-100"></a>
-
-                 <div class="col-md-4">                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button></div>
-                 <div class="collapse navbar-collapse col-md-5" id="navbarNav">
-                <ul class="navbar-nav fs-4">
-                  <li class="nav-item">  <a class="nav-link" href="/index.html">Home</a>    </li>
-                  <li class="nav-item">            <a class="nav-link active" aria-current="page" href="#">Tienda</a>                   </li>
-                  <li class="nav-item">            <a class="nav-link" href="#">Nosotros</a>                 </li>
-                  <li class="nav-item">              <a class="nav-link" href="#"> Ofertas</a>               </li>
-                </ul>
-               </div>
-            </nav>
-           </div>
-        </div>
+  <body style="background-image:url(/images/fondo.png); background-repeat:repeat-y; background-size: 100%;">
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light opacity-75 shadow-lg">   
+         <div class="col-md-1"></div>       
+          <a href="#" class="col-md-2"><img src="/images/zafiro_logo.png" alt="" class="w-100"></a>
+          <div class="col-md-4">                  </div>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse col-md-5" id="navbarNavAltMarkup">
+          <ul class="navbar-nav fs-4">
+            <li class="nav-item">  <a class="nav-link" aria-current="page" href="/index.html">Home</a>   </li>
+            <li class="nav-item">  <a class="nav-link active" href="/pages/tienda.html">Tienda</a>   </li>
+            <li class="nav-item">  <a class="nav-link" href="#">Nosotros</a> </li>
+           <li class="nav-item">   <a class="nav-link" href="#"> Ofertas</a>   </li>
+          </ul>
+       </div>
+      </nav>
+    </div>
+  </div>
     <main>
-        <div class="container-fluid bg-light">
-            <div class="container bg-light opacity-100">
+        <div class="container-fluid bg-dark">
+            <div class="container bg-dark">
                 <div class="row pt-5">
                     <div class="input-group mb-3">
-                        <span class="input-group-text" id="basic-addon1"> <img src="/images/lupa.png" alt="" width="30px"></span>
-                        <input type="text" class="form-control" placeholder="Buscar productos por nombre..." aria-label="Username" aria-describedby="basic-addon1">
+                        <span class="input-group-text bg-dark" id="basic-addon1"> <img src="/images/lupa.png" alt="" width="30px"></span>
+                        <input type="text" class="form-control bg-dark text-light border border-black" placeholder="Buscar productos por nombre..." aria-label="Username" aria-describedby="basic-addon1">
                       </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row mt-4">
-                <div class="col-md-3 " style="font-family: 'Mulish';">
+                <div class="col-md-3 text-light" style="font-family: 'Mulish';">
                     <h2>Categorías</h2>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-light"><a href="" class="text-decoration-none list-style-none link-dark">Riñoneras</a></li>
-                        <li class="list-group-item bg-light"><a href="" class="text-decoration-none list-style-none link-dark">Mochilas</a></li>
-                        <li class="list-group-item bg-light"><a href="" class="text-decoration-none list-style-none link-dark">Carteras</a></li>
-                        <li class="list-group-item bg-light"><a href="" class="text-decoration-none list-style-none link-dark">Billeteras</a></li>
-                        <li class="list-group-item bg-light"><a href="" class="text-decoration-none list-style-none link-dark">Pilusos</a></li>
-                        <li class="list-group-item bg-light"><a href="" class="text-decoration-none list-style-none link-dark">Neceseres</a></li>
-                        <li class="list-group-item bg-light"><a href="" class="text-decoration-none list-style-none link-dark">Otros</a></li>                    
+                    <ul id="catgeorias" class="list-group list-group-flush">
+                        <li class="list-group-item bg-dark"><a href="" class="text-decoration-none list-style-none link-light">Riñoneras</a></li>
+                        <li class="list-group-item bg-dark"><a href="" class="text-decoration-none list-style-none link-light">Mochilas</a></li>
+                        <li class="list-group-item bg-dark"><a href="" class="text-decoration-none list-style-none link-light">Carteras</a></li>
+                        <li class="list-group-item bg-dark"><a href="" class="text-decoration-none list-style-none link-light">Billeteras</a></li>
+                        <li class="list-group-item bg-dark"><a href="" class="text-decoration-none list-style-none link-light">Pilusos</a></li>
+                        <li class="list-group-item bg-dark"><a href="" class="text-decoration-none list-style-none link-light">Neceseres</a></li>
+                        <li class="list-group-item bg-dark"><a href="" class="text-decoration-none list-style-none link-light">Otros</a></li>                    
                     </ul>
                     <h2 class="mt-4">Filtrar por</h2>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item bg-light"><div class="input-group">
+                        <li class="list-group-item bg-dark text-light"><div class="input-group">
                             <label for="inputGroupSelect04" class="form-label">Color</label>
-                            <select class="form-select w-100" id="inputGroupSelect04" aria-label="Example select with button addon">
+                            <select class="form-select w-100 mb-4 bg-dark text-light" id="inputGroupSelect04" aria-label="Example select with button addon">
                     
                               <option selected></option>
                               <option value="1">Azul</option>
@@ -75,21 +76,21 @@
                             </select>
                           </div>
                         <label for="customRange3" class="form-label">Precio máximo</label>
-                            <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+                            <input type="range" class="form-range bg-dark text-light" min="0" max="5" step="0.5" id="customRange3">
                         <p> $1000 - $1500 - $2500 - MAX</p>
                                      
-                        <button class="btn btn-outline-secondary w-100" type="button">Filtrar</button></li>
+                        <button class="btn btn-outline-secondary w-100 text-light" type="button">Filtrar</button></li>
                     </ul>
                 </div>
-                <div class="col-md-9">
+                <div id="productos" class="col-md-9">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-9">
 
-                    <h2 style="font-family: 'Mulish';"> <b> Lo más vendido </b> </h2>
+                    <h2 style="font-family: 'Mulish';" class="text-light"> <b> Lo más vendido </b> </h2>
                     <div class="input-group mb-3">
-                        <button class="btn btn-outline-secondary" type="button">Buscar</button>
-                        <select class="form-select text-secondary" id="inputGroupSelect03" aria-label="Example select with button addon">
+                        <button class="btn btn-outline-secondary text-light" type="button">Buscar</button>
+                        <select class="form-select text-secondary bg-dark text-secondary border-secondary" id="inputGroupSelect03" aria-label="Example select with button addon">
                             <option selected>Ordenar por...</option>
                             <option value="1">Desde el mas vendido</option>
                             <option value="2">Desde el más nuevo</option>
@@ -107,7 +108,7 @@
                         <div class="col-md-4">
                             <div class="card border border-0 shadow-sm">
                               <a href="">  <img src="/images/billetera-amarilla.png" class="card-img-top" alt="..."> </a>
-                                <div class="card-body">
+                                <div class="card-body bg-black text-light shadow">
                                   <h5 class="card-title">Billetera Yellow </h5>
                                   <p class="text-secondary">Billeteras</p>
                                   <p class="card-text">$1.200</p>
@@ -115,9 +116,9 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="card border border-0 shadow-sm"">
+                            <div class="card border border-0 shadow-sm">
                               <a href="">  <img src="/images/cartera roja.png" class="card-img-top" alt="..."> </a>
-                                <div class="card-body">
+                                <div class="card-body  bg-black text-light shadow">
                                   <h5 class="card-title">Cartera Roja</h5>
                                   <p class="text-secondary">Carteras</p>
                                   <p class="card-text">$2.300</p>
@@ -125,9 +126,9 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="card border border-0 shadow-sm"">
+                            <div class="card border border-0 shadow-sm">
                               <a href="">  <img src="/images/gorro-rojo.png" class="card-img-top" alt="..."> </a>
-                                <div class="card-body">
+                                <div class="card-body bg-black text-light shadow">
                                   <h5 class="card-title">Piluso Rojo</h5>
                                   <p class="text-secondary">Pilusos</p>
                                   <p class="card-text">$2.300</p>
@@ -138,9 +139,9 @@
 
                       <div class="row mt-3">
                         <div class="col-md-4">
-                            <div class="card border border-0 shadow-sm"">
+                            <div class="card border border-0 shadow-sm">
                               <a href="">  <img src="/images/minibag-negra.png" class="card-img-top" alt="..."> </a>
-                                <div class="card-body">
+                                <div class="card-body bg-black text-light shadow">
                                   <h5 class="card-title">Minibag Black</h5>
                                   <p class="text-secondary">Otros</p>
                                   <p class="card-text">$2.300</p>
@@ -148,9 +149,9 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="card border border-0 shadow-sm"">
+                            <div class="card border border-0 shadow-sm">
                               <a href="">  <img src="/images/mochila.png" class="card-img-top" alt="..."> </a>
-                                <div class="card-body">
+                                <div class="card-body bg-black text-light shadow">
                                   <h5 class="card-title">Mochila Black</h5>
                                   <p class="text-secondary">Mochilas</p>
                                   <p class="card-text">$3.500</p>
@@ -158,9 +159,42 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="card border border-0 shadow-sm"">
+                            <div class="card border border-0 shadow-sm">
                               <a href="">  <img src="/images/rinonera-marron-2.png" class="card-img-top" alt="..."> </a>
-                                <div class="card-body">
+                                <div class="card-body bg-black text-light shadow">
+                                  <h5 class="card-title">Riñonera Camel</h5>
+                                  <p class="text-secondary">Riñoneras</p>
+                                  <p class="card-text">$2.300</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="row mt-3">
+                        <div class="col-md-4">
+                            <div class="card border border-0 shadow-sm">
+                              <a href="">  <img src="/images/minibag-negra.png" class="card-img-top" alt="..."> </a>
+                                <div class="card-body bg-black text-light shadow">
+                                  <h5 class="card-title">Minibag Black</h5>
+                                  <p class="text-secondary">Otros</p>
+                                  <p class="card-text">$2.300</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border border-0 shadow-sm">
+                              <a href="">  <img src="/images/mochila.png" class="card-img-top" alt="..."> </a>
+                                <div class="card-body bg-black text-light shadow">
+                                  <h5 class="card-title">Mochila Black</h5>
+                                  <p class="text-secondary">Mochilas</p>
+                                  <p class="card-text">$3.500</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border border-0 shadow-sm">
+                              <a href="">  <img src="/images/rinonera-marron-2.png" class="card-img-top" alt="..."> </a>
+                                <div class="card-body bg-black text-light shadow">
                                   <h5 class="card-title">Riñonera Camel</h5>
                                   <p class="text-secondary">Riñoneras</p>
                                   <p class="card-text">$2.300</p>
@@ -179,17 +213,17 @@
                 </div>
                 <div class="col-md-9 d-flex justify-content-center pt-4 pb-3">
                     <nav aria-label="...">
-                        <ul class="pagination">
+                        <ul class="pagination bg-black text-light">
                           <li class="page-item disabled">
-                            <span class="page-link">Previous</span>
+                            <span class="page-link  bg-black text-light">Previous</span>
                           </li>
-                          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item active"><a class="page-link border border-white" href="#">1</a></li>
                           <li class="page-item" aria-current="page">
-                            <a class="page-link" href="#">2</a>
+                            <a class="page-link  bg-black text-light" href="#">2</a>
                           </li>
-                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item"><a class="page-link  bg-black text-light" href="#">3</a></li>
                           <li class="page-item">
-                            <a class="page-link" href="#">Next</a>
+                            <a class="page-link  bg-black text-light" href="#">Next</a>
                           </li>
                         </ul>
                       </nav>
@@ -202,7 +236,7 @@
     </main>
     
     <footer class="container-fluid">
-        <div class="row bg-light pt-4 pb-4 border-top border-3">
+        <div class="row bg-black text-light pt-4 pb-4 border-top border-3">
             <div class="col-md-12 d-flex justify-content-between">
                 <h5 style="font-family: 'Mulish';" class="ms-4">Copyright © 2022 byZafiro</h5>
                 <h5 style="font-family: 'Mulish';" class="me-4"> Creado por Antonino Estevez </h5>

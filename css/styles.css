@@ -1,0 +1,82 @@
+
+#catgeorias li{
+
+    transition: all 0.3s;
+
+
+}
+
+
+#catgeorias li:hover {
+
+    font-weight: bolder;
+    padding-left: 10px;
+
+}
+
+#productos img {
+
+    transition: all 0.2s;
+
+}
+
+#productos img:hover {
+
+opacity: 85%;
+
+
+
+}
+ 
+
+#tienda {
+
+background-color: #ffffffa1;
+transition: all 0.4s;
+
+
+}
+
+#tienda:hover {
+
+background-color: #ffffff;
+
+}
+
+#xmayor {
+
+background-color: rgba(37, 37, 37, 0.692);
+transition: all 0.4s;
+
+}
+
+#xmayor:hover {
+
+background-color: rgba(37, 37, 37);
+
+}
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
